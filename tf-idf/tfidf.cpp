@@ -6,7 +6,8 @@ using namespace std;
 
 TF* grade::NewTF()
 {
-	return;
+	TF *tmp = new TF();
+	return tmp;
 }
 void grade::Insert(TF *root, char *s, double tmp)
 {
